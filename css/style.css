@@ -1,6 +1,51 @@
+* {
+    /** box-sizing: border-box räknar med border, padding, margin i din width och higth */
+    /** content-box räknar inte med border, padding, margin i din width och higth */
+    box-sizing: border-box;
+}
+
 body {
-    background-color: blueviolet;
+    background-color: lightgoldenrodyellow;
+    width: 100vw;
+    height: 100vh;
 }
 h1 {
-    color: blue;
+    color: black;
+}
+p {
+    color: green;
+}
+.title {
+    color: palevioletred;
+}
+section {
+    background-color: lightblue;
+    height: 25%;
+}
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.presentation {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.button {
+    background-color: green;
+    margin: 10px; 
+    padding: 10px;
+    color: white;
+
+}
+.round {
+    border-radius: 50px;
 }
