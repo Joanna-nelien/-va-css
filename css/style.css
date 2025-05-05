@@ -20,7 +20,7 @@ p {
 }
 section {
     background-color: lightblue;
-    height: 25%;
+    height: 10%;
 }
 .container {
     background-color: black;
@@ -49,3 +49,19 @@ section {
 .round {
     border-radius: 50px;
 }
+
+.section-one {
+    background-color: lightblue;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.inside-section-one {
+     background-color: lightcoral;
+     height: 50px;
+     width: 50px;
+     margin: 10px;
+     padding: 10px;
+    }
